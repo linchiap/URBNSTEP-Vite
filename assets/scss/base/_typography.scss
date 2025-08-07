@@ -1,0 +1,189 @@
+.display-1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.display-2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h6 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.label-lg {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.label-md {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.label-sm {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.label-xs {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.paragraph-lg {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.paragraph-md {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.paragraph-sm {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.paragraph-xs {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+    .h5-lg {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 820px) {
+    .h5-l {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 768px) {
+    .display-md-2 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .paragraph-md-md {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .h2-md {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .h3-md {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .h4-md {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .h5-md {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .h6-md {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .text-md-start {
+        text-align: left;
+    }
+}
+
+@media (max-width: 576px) {
+    .h3-sm {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .h4-sm {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .h5-sm {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .h6-sm {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+}
+
+.fw-500 {
+    font-weight: 500;
+}

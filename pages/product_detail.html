@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product detail</title>
+  </head>
+  <body>
+    <%- include('./layout/navbar'); -%>
+    <main class="container">
+      <div class="row py-64 py-md-0">
+        <!-- product image -->
+        <div class="col-7 col-md-4">
+          <ul class="product-row product-md-row overflow-x-md-auto mb-md-24 gap-md-8">
+            <li class="product-col product-md-col mb-8 mb-md-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true"
+                alt="">
+            </li>
+            <li class="product-col product-md-col mb-8 mb-md-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image-1.png?raw=true"
+                alt="">
+            </li>
+            <li class="product-col product-md-col mb-8 mb-md-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image-2.png?raw=true"
+                alt="">
+            </li>
+            <li class="product-col product-md-col mb-8 mb-md-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image-3.png?raw=true"
+                alt="">
+            </li>
+            <li class="product-col product-md-col mb-8 mb-md-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image-4.png?raw=true"
+                alt="">
+            </li>
+            <li class="product-col product-md-col mb-8 mb-md-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image-5.png?raw=true"
+                alt="">
+            </li>
+            <li class="product-col product-md-col mb-8 mb-md-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image-6.png?raw=true"
+                alt="">
+            </li>
+            <li class="product-col product-md-col mb-8 mb-md-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image-7.png?raw=true"
+                alt="">
+            </li>
+          </ul>
+        </div>
+    
+        <!-- product info -->
+        <div class="col-5 col-md-4">
+          <!-- 產品介紹 -->
+          <div class="product-intro mb-32">
+            <div class="breadcrumb mb-12 mb-md-8">
+              <ol class="d-flex">
+                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">首頁</a></li>
+                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">女鞋</a></li>
+                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">滑板鞋</a></li>
+                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link active">Platform 404</a></li>
+              </ol>
+            </div>
+            <h1 class="h2 mb-16 mb-md-12">Platform404</h1>
+            <h2 class="d-flex align-items-center h5 text-highlight mb-16 mb-md-12">
+              <span class="me-8">NT12,600</span>
+              <span class="text-neutral text-sm text-line-through">NT$3,200</span>
+            </h2>
+            <p class="mb-12">
+              Platform 404 以柔和奶白為底，搭配深藍色皮革點綴，走在街上自帶回頭率。鞋型採用復古運動風輪廓，結合輕量厚底與柔軟泡棉鞋舌，兼顧美感與舒適。
+            </p>
+            <p>
+              鞋身選用柔軟皮革材質，打造出清新卻不失個性的氛圍，並以鞋面透氣孔設計提升穿著體驗，兼顧質感與舒適度，適合日常長時間著用。無論是街頭穿搭、日常通勤或週末出遊都能輕鬆駕馭。
+            </p>
+          </div>
+    
+          <!-- 產品規格 -->
+          <div class="spec-CTA">
+            <!-- 規格色卡 -->
+            <div class="size-color mb-32 mb-md-24">
+              <p class="mb-8">顏色</p>
+              <ul class="d-flex">
+                <li class="size-color-list text-center me-8">
+                  <a href="#">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true"
+                      alt="navy" class="mb-4">
+                    <p class="text-secondary fw-500">藍色</p>
+                  </a>
+                </li>
+                <li class="size-color-list text-center">
+                  <a href="#">
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-1.png?raw=true"
+                      alt="beige" class="mb-4">
+                    <p class="text-secondary fw-500">卡其色</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+    
+            <!-- 規格尺寸按鈕 -->
+            <div class="mb-48 mb-md-24">
+              <p class="mb-8">尺寸</p>
+              <div class="d-flex flex-wrap gap-8 mb-8">
+                <button class="btn btn-size-list active"><a href="#" class="fw-500">35(22.5cm)</a></button>
+                <button class="btn btn-size-list">36(23.0cm)</button>
+                <button class="btn btn-size-list">37(23.5cm)</button>
+                <button class="btn btn-size-list">38(24.0cm)</button>
+                <button class="btn btn-size-list">39(24.5cm)</button>
+                <button class="btn btn-size-list">40(25.0cm)</button>
+                <button class="btn btn-size-list">41(26.0cm)</button>
+                <button class="btn btn-size-list" disabled>42(26.5cm)</button>
+                <button class="btn btn-size-list" disabled>43(27.0cm)</button>
+              </div>
+              <p class="text-danger text-sm">僅剩3雙</p>
+            </div>
+    
+            <!-- btn wrapper -->
+            <div class="btn-wrapper mb-32">
+              <button type="button" class="btn btn-light d-md-none"><i class="bi bi-heart me-8"></i>加入收藏</button>
+              <button type="button" class="btn gap-8 btn-dark "><i class="bi bi-bag me-8"></i>門市預約試穿</button>
+              <i class="bi bi-heart d-none d-md-block p-12"></i>
+            </div>
+            <!-- Accordion -->
+            <div>
+              <div class="accordion-item py-12 section-line">
+                <p class="fw-500 mb-4">商品材質</p>
+                <ul class="text-secondary">
+                  <li>鞋面：合成皮革（Synthetic Leather）</li>
+                  <li>內裡：透氣網布材質，提升舒適與排汗性</li>
+                  <li>鞋底：EVA 輕量發泡橡膠，具備良好緩震與止滑效果</li>
+                  <li>鞋帶：聚酯纖維，耐拉扯不易鬆脫</li>
+                </ul>
+              </div>
+              <div class="accordion-item py-12 section-line">
+                <p class="fw-500 mb-4">購買須知</p>
+                <ul class="text-secondary">
+                  <li>商品顏色因螢幕顯示可能略有差異，請以實品為準。</li>
+                  <li>內裡：透氣網布材質，提升舒適與排汗性</li>
+                  <li>建議首次穿著前試穿確認尺寸，避免影響退換貨權益。</li>
+                  <li>本商品為限量發售，庫存有限，如需更換尺寸請儘早聯繫客服協助處理。</li>
+                </ul>
+              </div>
+              <div class="accordion-item py-12 section-line">
+                <p class="fw-500 mb-4">保養方式</p>
+                <ul class="text-secondary">
+                  <li>建議以乾布或微濕軟布擦拭表面汙漬，避免機洗或長時間浸水。</li>
+                  <li>內裡：透氣網布材質，提升舒適與排汗性</li>
+                  <li>收納時請放置於乾燥通風處，避免日曬及高溫導致變形或龜裂。</li>
+                  <li>若需深層清潔，建議使用中性清潔劑並搭配柔刷輕刷，勿使用漂白水或強酸強鹼清潔劑。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- content -->
+      <div class="py-48 mb-40 py-md-40">
+        <div class="h4 mb-16">你可能也喜歡...</div>
+        <ul class="row best-md-row flex-md-nowrap overflow-x-md-auto">
+          <li class="col-3 best-md-col">
+            <a href="#">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-2.png?raw=true"
+                alt="content-1" class="mb-12">
+              <div class="justify-content-start">
+                <p class="h6 mb-4">VM001</p>
+                <p class="text-md fw-500">NT$2,600</p>
+              </div>
+            </a>
+          </li>
+          <li class="col-3 best-md-col">
+            <a href="#">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true"
+                alt="content-2" class="mb-12">
+              <div class="justify-content-start">
+                <p class="h6 mb-4">Melty Kiss</p>
+                <p class="text-md fw-500">T$4,000</p>
+              </div>
+            </a>
+          </li>
+          <li class="col-3 best-md-col">
+            <a href="#">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true"
+                alt="content-3" class="mb-12">
+              <div class="justify-content-start">
+                <p class="h6 mb-4">BOOMBLOK</p>
+                <p class="text-md fw-500">NT$3,200</p>
+              </div>
+            </a>
+          </li>
+          <li class="col-3 best-md-col">
+            <a href="#">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-7.png?raw=true"
+                alt="content-4" class="mb-12">
+              <div class="justify-content-start">
+                <p class="h6 mb-4">Sugar Snap</p>
+                <p class="text-md fw-500">NT$3,200</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <%- include('./layout/call_to_action'); -%>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

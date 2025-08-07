@@ -1,0 +1,72 @@
+// 產品詳情頁
+
+.bi-heart,
+.bi-bag {
+    font-size: 20px;
+}
+
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -4px;
+    margin-left: -4px;
+
+    .product-col {
+        width: calc(100% / 12 * 6);
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+}
+
+.content-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+
+    .content-col {
+        width: calc(100% / 12 * 3);
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+}
+
+.size-color-list {
+    width: 64px;
+
+    &:hover {
+        border: 1px solid $neutral-300;
+    }
+}
+
+// ---------- rwd ---------- //
+@media (max-width: 768px) {
+
+    .bi-heart,
+    .bi-bag {
+        font-size: 24px;
+    }
+
+    .product-md-row {
+        flex-wrap: nowrap;
+        margin-right: -12px;
+        margin-left: -12px;
+
+        .product-md-col {
+            min-width: 375px;
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+    }
+
+    .best-md-row {
+        margin-right: -8px;
+        margin-left: -8px;
+
+        .best-md-col {
+            min-width: 324px;
+            padding-right: 8px;
+            padding-left: 8px;
+        }
+    }
+}

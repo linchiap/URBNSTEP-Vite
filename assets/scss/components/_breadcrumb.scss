@@ -1,0 +1,27 @@
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '/';
+    padding: 0 12px;
+    font-weight: 700;
+    color: var(--neutral-300);
+}
+
+.breadcrumb-item {
+    display: flex;
+    font-weight: 500;
+}
+
+.breadcrumb-link {
+    color: var(--neutral-600);
+}
+
+.breadcrumb-link.active {
+    color: var(--neutral-900);
+}
+
+
+// ---------- rwd ---------- //
+@media (max-width: 768px) {
+    .breadcrumb-item+.breadcrumb-item::before {
+        padding: 0 8px;
+    }
+}

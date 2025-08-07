@@ -1,0 +1,39 @@
+/* base */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css');
+
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: $neutral-900;
+
+    img {
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+
+a {
+    display: block;
+    font-weight: 500;
+    text-decoration: none;
+    color: $neutral-900;
+
+    &:hover {
+        color: $neutral-600;
+    }
+}

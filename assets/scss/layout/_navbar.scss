@@ -1,0 +1,13 @@
+  .menu-list {
+    width: 100%;
+    text-align: center;
+    background-color: $primary-100;
+
+    a:hover{
+      color: $neutral-900;
+    }
+
+    &:hover{
+      background-color: $primary-200;
+    }
+  }

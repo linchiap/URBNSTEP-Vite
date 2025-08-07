@@ -1,0 +1,84 @@
+/* variables */
+$primary-100: #f5fee7;
+$primary-200: #e8fec5;
+$primary-300: #c0fa73;
+$primary-400: #57a203;
+$primary-500: #477a11;
+
+$neutral-0: #ffffff;
+$neutral-100: #f8f9fa;
+$neutral-200: #e9ecef;
+$neutral-300: #dee2e6;
+$neutral-400: #ced4da;
+$neutral-500: #adb5bd;
+$neutral-600: #6c757d;
+$neutral-700: #495057;
+$neutral-800: #343a40;
+$neutral-900: #212529;
+
+$functional-danger-100: #fcf1f1;
+$functional-danger-200: #eba7a7;
+$functional-danger-300: #d74f4f;
+$functional-warning-100: #fef6ec;
+$functional-warning-200: #f9c588;
+$functional-warning-300: #f38b12;
+$functional-success-100: #eff8f4;
+$functional-success-200: #9ad1ba;
+$functional-success-300: #36a375;
+$functional-info-100: #eef5fc;
+$functional-info-200: #97c3ed;
+$functional-info-300: #3087db;
+
+
+
+// ---------- 還在練習:"> ---------- //
+// primary
+$primary: (
+    100: #f5fee7,
+    200: #e8fec5,
+    300: #c0fa73,
+    400: #57a203,
+    500: #477a11
+);
+
+// neutral
+$neutral: (
+    0: #FFFFFF,
+    100: #F8F9FA,
+    200: #E9ECEF,
+    300: #DEE2E6,
+    400: #CED4DA,
+    500: #ADB5BD,
+    600: #6C757D,
+    700: #495057,
+    800: #343A40,
+    900: #212529
+);
+
+// Danger
+$danger: (
+    100: #FCF1F1,
+    200: #EBA7A7,
+    300: #D74F4F
+);
+
+// Warning
+$warning: (
+    100: #FEF6EC,
+    200: #F9C588,
+    300: #F38B12
+);
+
+// Success
+$success: (
+    100: #EFF8F4,
+    200: #9AD1BA,
+    300: #36A375
+);
+
+// Info
+$info: (
+    100: #EEF5FC,
+    200: #97C3ED,
+    300: #3087DB
+);
